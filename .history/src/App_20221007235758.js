@@ -19,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="radial-progress" >70%</div>
     </div>
   );
 }
