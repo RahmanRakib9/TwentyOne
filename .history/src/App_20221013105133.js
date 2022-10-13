@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Timer from "./components/Timer";
 
 function App() {
+  const [second]=use
   return (
     <div className="App">
-      <Timer></Timer>
+      <h1>Min: </h1>
+      <h1>Sec: </h1>
+      <h1>Hour:</h1>
     </div>
   );
 }

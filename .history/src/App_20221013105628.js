@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Timer from "./components/Timer";
+import useCountdown from "./hooks/useCountdown";
 
 function App() {
   return (
     <div className="App">
-      <Timer></Timer>
+      
     </div>
   );
 }
