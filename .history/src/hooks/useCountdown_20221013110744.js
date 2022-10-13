@@ -35,7 +35,7 @@ const useCountdown = () => {
 
     return () => clearInterval(timer);
   });
-  return [second, minute, hour,day];
+  return [second, minute, hour,da];
 };
 
 export default useCountdown;

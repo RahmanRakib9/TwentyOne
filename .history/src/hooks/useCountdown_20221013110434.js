@@ -23,19 +23,15 @@ const useCountdown = () => {
         setMinute(0);
       }
 
-      if (hour === 23 && minute === 59) {
-        setDay(day + 1);
-        setHour(0);
-        setMinute(0);
+      if(hour===23 && minute===59){
+        
       }
-
-
 
     }, 1000);
 
     return () => clearInterval(timer);
   });
-  return [second, minute, hour,day];
+  return [second, minute, hour];
 };
 
 export default useCountdown;

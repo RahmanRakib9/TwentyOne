@@ -1,10 +1,10 @@
 import React from 'react';
 import Timer from './components/Timer';
-import './App.css'
+import 
 
 const App = () => {
   return (
-    <div className='App'>
+    <div>
       <Timer></Timer>
     </div>
   );

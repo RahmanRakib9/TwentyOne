@@ -7,12 +7,11 @@ const Timer = () => {
     <div class="hero min-h-screen bg-base-200">
       <div class="hero-content text-center">
         <div class="max-w-md">
-          <h1 class="text-7xl font-bold mb-5">
+          <h1 class="text-7xl font-bold">
             {day} {day > 0 || 1 ? "day" : "days"}
           </h1>
           <h3 className="text-4xl font-semibold">
-            {hour < 10 ? "0" + hour : hour}:
-            {minute < 10 ? "0" + minute : minute}:
+            {hour>}:{minute < 10 ? "0" + minute : minute}:
             {second < 10 ? "0" + second : second}
           </h3>
           <p class="py-6">
